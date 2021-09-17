@@ -1,0 +1,7 @@
+<view class="pubTitle">
+      <view class="txt">{{myTitle}}</view>
+
+      <navigator open-type="reLaunch" url="{{myUrl}}" class="more" >
+            <image class="pic" mode="heightFix" src="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/icon/pikaqiu1.jpg?sign=4a800405761f13594e856d5c2f17a6ad&t=1628064416"></image>
+      </navigator>
+</view>

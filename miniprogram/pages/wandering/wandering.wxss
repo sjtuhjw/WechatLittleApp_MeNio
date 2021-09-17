@@ -1,0 +1,17 @@
+/* pages/relaxing/relaxing.wxss */
+.frame{background: white; padding: 20rpx  20rpx;border-color:#fac1b8; border-width: 5rpx;border-style: dashed;border-radius: 30rpx;margin-top: 20rpx;justify-items: center;}
+.btn {width: 750rpx;height: 80rpx;margin-top:50rpx;margin-bottom: 50rpx;}
+
+.txt{width: 500rpx; height: 70rpx;background: #f89588;border-radius: 70rpx; color: #fff; text-align: center;line-height: 70rpx;font-size: 40rpx;margin: 0 auto;position: relative;margin-bottom: 40rpx;}
+
+.imgs{
+  width: 300rpx;
+  height: 100%;
+  position: relative;
+}
+
+.imgs1{
+  width: 700rpx;
+  height: 100%;
+  position: relative;
+}

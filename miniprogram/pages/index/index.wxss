@@ -1,0 +1,21 @@
+
+/* 顶部导航 */
+
+
+/* 幻灯片 */
+
+/* 历史回顾 */
+.major {white-space: nowrap;padding: 20rpx 0;border-color:#fac1b8; border-width: 5rpx;border-style: dashed;border-radius: 30rpx;margin-top: 20rpx;background-color:white;}
+.major .box{text-align: center;width: 187.5rpx; display: inline-block;}
+.major .pic{width: 100rpx;height: 100rpx;border-radius: 25rpx;border-color:#fac1b8; border-width: 5rpx;border-style: solid;}
+.major .txt{font-size: 26rpx;margin-top: 10;}
+
+/* 花絮 */
+.works {background: white; padding: 20rpx 0 50rpx;border-color:#fac1b8; border-width: 5rpx;border-style: dashed;border-radius: 30rpx;margin-top: 20rpx}
+.wkMain {display: flex;flex-wrap: wrap;justify-content: space-between;}
+
+/* 记录 */
+.dynamic{background: white; padding: 20rpx  20rpx;border-color:#fac1b8; border-width: 5rpx;border-style: dashed;border-radius: 30rpx;margin-top: 20rpx}
+
+
+/* 底部 */

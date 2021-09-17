@@ -1,0 +1,8 @@
+<navigator class="box" url="{{myUrl}}">
+      <image class="pic" src="{{myFig}}"/>
+    <view class="ceng">
+      <view class="tit">{{myTitle}}</view>
+      <view class="line"></view>
+      <view class="dis">{{myEnglish}}</view>
+    </view>
+</navigator>

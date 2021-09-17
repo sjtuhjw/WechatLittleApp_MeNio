@@ -1,0 +1,5 @@
+.footer{padding: 50rpx 0;background: #fff;text-align: center;}
+
+.ftCon navigator, .ftCon {height: 50rpx;}
+.footer .logo image{ width: 180rpx;height: 100%;position: relative;animation: dh linear 1s infinite alternate;}
+.footer .text{font-size: 25rpx;color: #666;}

@@ -1,0 +1,144 @@
+<!--pages/shanghai/shanghai.wxml-->
+<!-- 顶部导航-->
+<HdView/>
+
+
+<!-- shanghai -->
+<!-- 1 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    2020年1月1日
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/sh1.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 新年的第一次约会 </view>
+    <view> 选调面试前的放纵~</view>
+    <view> 蛙来哒oishi~ </view>
+    <view> 可爱的一对红绳 </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 2 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  奇思妙想の时空洞
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/sh2.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 黏着呼呼的小黑猫</view>
+    <view> 给小灰灰梳毛 </view>
+    <view> 一起撸猫啦~ </view>
+    <view> 亲一口吧小宝贝</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 3 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    惬意的撸猫时光
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/sh3.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 一只只的小懒猫</view>
+    <view> 醒醒呀~跟我一起玩吧</view>
+    <view> 给你小鱼干~ </view>
+    <view> 做个鬼脸吧 </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 4 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  一起去看满天星
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/sh4.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 星星都围着祝福我们呢~</view>
+    <view> 嘿嘿，好美哦~</view>
+
+    </view>
+  </view>
+
+</view>
+
+<!-- 5 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  可爱的小动物们
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/sh5.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 快看有一只小帅哥！</view>
+    <view> 有我帅咩？</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 6 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    SKY RING屋顶摩天轮
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/sh6.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 摩天轮顶点要亲亲哦</view>
+    <view> mua~</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 7 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    摩天轮上的我们
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/sh7.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 快点快点，要到顶点啦！</view>
+    <view> 来啦来啦~</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 8 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    新的一年也要继续相爱哦
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/sh8.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 爱你哦，呼呼~</view>
+    <view> 爱你哦，nionio~</view>
+    </view>
+  </view>
+
+</view>
+
+
+<!-- 底部 -->
+<FtView/>

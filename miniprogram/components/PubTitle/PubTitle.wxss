@@ -1,0 +1,5 @@
+.pubTitle{display: flex;justify-content: space-between;align-items: center;margin-bottom: 40rpx;background-color: white;}
+.pubTitle .txt{font-size: 40rpx;position: relative;padding-left: 20rpx;}
+.pubTitle .txt::before{display: block;width: 10rpx;height: 30rpx;background: #fac1b8;content: "";position:absolute;left: 0;top: 50%;margin-top: -15rpx;}
+
+.pubTitle .more .pic{height: 70rpx;position: relative;animation: dh linear 1s infinite alternate;}

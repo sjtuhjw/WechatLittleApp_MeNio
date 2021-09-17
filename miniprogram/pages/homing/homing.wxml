@@ -1,0 +1,27 @@
+<HdView/>
+
+<view class="frame">
+  <button class="btn" bindtap="chooseImage" type="primary">选择图片</button>
+  <button class="btn" bindtap="uploadImage" type="primary">上传图片</button>
+</view>
+
+<view class="frame">
+    <view class="txt">已选择图片</view>
+    <image wx:key="index" wx:for="{{imgs_temp}}" src="{{item}}" mode="widthFix" class="imgs"></image>
+</view>
+
+
+<view class="frame">
+    <view class="txt">
+    Hu Hu's Wifing
+    </view>
+
+
+  <view class="psBoxCon">
+    <image  class="imgs1" wx:key="index" wx:for="{{urlList}}" src="{{item}}" mode="widthFix"></image>
+  </view>
+
+</view>
+
+
+<FtView/>

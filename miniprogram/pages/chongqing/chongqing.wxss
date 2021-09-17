@@ -1,0 +1,17 @@
+/* pages/chongqing/chongqing.wxss */
+
+.psBox{padding: 50rpx 10rpx; background: #fac1b8;}
+.psBox .psBoxTit{justify-content:center ;}
+.psBox:nth-child(2n){background: #fff;}
+
+.psBoxTit{width: 500rpx; height: 70rpx;background: #f89588;border-radius: 70rpx; color: #fff; text-align: center;line-height: 70rpx;font-size: 40rpx;margin: 0 auto;position: relative;margin-bottom: 40rpx;}
+
+.psBoxTit::before{display: block;content: "";width: 100%;height: 100%;border:2px dashed #f89588;position: absolute;top: 0;left: 0;box-sizing: border-box; border-radius: 70rpx;transform: scale(1.03,1.2);}
+
+.psBoxCon .pic{width: 100%;}
+.psBoxCon .txt{padding: 40rpx 26rpx 0; box-sizing: border-box;display: flex; flex-wrap: wrap; }
+.psBoxCon .txt view{width: 50%; font-size: 30rpx ; line-height: 1.8em;position: relative;padding-left: 18rpx; box-sizing: border-box;}
+.psBoxCon .txt view::before{content: "";display: block;width: 10rpx; height: 10rpx; border-radius: 50%;background: black;position: absolute;left: 0;top: 50%;margin-top: -5rpx;}
+
+.psBox:nth-child(2n-1) .psBoxCon .txt{color: #fff;}
+.psBox:nth-child(2n-1) .txt view::before{background: #fff;}

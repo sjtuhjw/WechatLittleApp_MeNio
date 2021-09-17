@@ -1,0 +1,1 @@
+"D:\App\Tencent\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-5gel9har6a17b1da --n quickstartFunctions --r --project "E:\胡家玮\miniprogram\MeNioCloud" --report

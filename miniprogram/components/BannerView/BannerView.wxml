@@ -1,0 +1,17 @@
+    <!-- 横幅-->
+    <view class="dyItem"   open-type="redirectTo">
+        <view class="pic">
+        <image src="{{myFig}}" ></image>
+        </view>
+        <view class="txt">
+         <view class="title">
+          {{myTitle}}
+         </view>
+         <view class="info">
+         <text> 地点：</text>{{myAddr}} 
+        </view>
+         <view class="info">
+          <text>时间：</text> {{myTime}} 
+         </view>
+        </view>
+      </view>

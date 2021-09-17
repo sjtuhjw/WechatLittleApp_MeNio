@@ -1,0 +1,67 @@
+<!-- 顶部导航-->
+<HdView/>
+
+<!-- 幻灯片 -->
+<SlideView/>
+
+<!-- 历史回顾 -->
+<view class="major">
+    
+    <!-- 南京 -->
+    <navigator  class="box" url="/pages/nanjing/nanjing">
+         <image class="pic" src="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/icon/nanjing.jpg?sign=b5338142e06e158c5df71dd666b00566&t=1628066271"/>
+         <view class="txt">南京</view>
+    </navigator>
+
+    <!-- 上海 -->
+    <navigator class="box" url="/pages/shanghai/shanghai">
+        <image class="pic" src="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/icon/shanghai.jpg?sign=8b01ff446edb0e96a406a93203585ab6&t=1628066047"/>
+        <view class="txt">上海</view>
+    </navigator>
+    
+    <!-- 重庆 -->
+    <navigator  class="box" url="/pages/chongqing/chongqing">
+         <image class="pic" src="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/icon/chonqging.jpg?sign=608f16e325a1a6e59c38a2a41de3ad6c&t=1628062385"/>
+         <view class="txt">重庆</view>
+    </navigator>
+
+    <!-- 长沙 -->
+    <navigator class="box"  url="/pages/changsha/changsha">
+         <image class="pic" src="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/icon/changsha.jpg?sign=3f58cb45bb9d26f49ee8fe5a01b3cc05&t=1628062049"/>
+         <view class="txt">长沙</view>
+    </navigator>
+</view>
+
+<!-- 花絮 -->
+<view class="works">
+  <view class="container">
+
+    <PubTitle myTitle="花絮" myUrl="/pages/works/works"/>
+
+    <view class="wkMain">
+    <BoardView myUrl="/pages/playing/playing" myFig="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/titbits/playing/playing.jpg?sign=fb716f7b20ae37f4bec7bcd672c0532e&t=1628045762" myTitle="游园戏梦" myEnglish="XiXiHaHa Playing"/>
+    <BoardView myUrl="/pages/shopping/shopping" myFig="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/titbits/shopping/shopping.jpg?sign=0149a5dd7a4348f2f33d143d59cf79eb&t=1628045801" myTitle="满载而归" myEnglish="All BUY Shopping"/>
+    <BoardView  myUrl="/pages/relaxing/relaxing" myFig="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/titbits/relaxing/relaxing.jpg?sign=524fe4edc9c5a36c1b43183d5597c06c&t=1628045776" myTitle="休闲一刻" myEnglish="All Day Relaxing"/>
+    <BoardView  myUrl="/pages/wandering/wandering" myFig="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/titbits/wandering/wandering.jpg?sign=5b3f8cccf69e762b20f0a9ac75e40172&t=1628061999" myTitle="闲庭信步" myEnglish="Xai JB Wandering"/>
+    <BoardView  myUrl="/pages/acting/acting" myFig="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/titbits/acting/acting0.jpg?sign=60831f3c89148524eead62d6913da86c&t=1628045501" myTitle="惟妙惟肖" myEnglish="NiuBility Acting"/>
+    <BoardView  myUrl="/pages/homing/homing" myFig="https://636c-cloud1-5gel9har6a17b1da-1306662435.tcb.qcloud.la/titbits/homing/homing.jpg?sign=aea5d648a72c2a621fbf5d340fc8f34c&t=1628045742" myTitle="贤妻良母" myEnglish="HuHu's Wifeing"/>
+    </view>
+    
+  </view>
+</view>
+
+
+<!-- 记录 -->
+<view class="dynamic">
+  <view class="container">
+    <PubTitle myTitle="记录" myUrl="/pages/dynamic/dynamic"/>
+  </view>
+
+  <view class="dyMain" wx:for="{{dataList}}" wx:key="index">
+    <BannerView myFig="{{item.pic}}" myTitle="{{item.title}}" myAddr="{{item.addr}}" myTime="{{item.time}}"/>
+   </view>
+
+</view>
+
+<!-- 底部 -->
+<FtView/>

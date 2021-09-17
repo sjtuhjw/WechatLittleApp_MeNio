@@ -1,0 +1,78 @@
+<!--pages/shanghai/shanghai.wxml-->
+<!-- 顶部导航-->
+<HdView/>
+
+
+<!-- changsha -->
+<!-- 1 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  2021年六一 长沙儿童节
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cs1.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 第一次来长沙</view>
+    <view> 久雨初晴的傍晚 </view>
+    <view> 对面就是橘子洲 </view>
+    <view> 楼下就是太平老街 </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 2 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  琳琅满目的长沙小吃
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cs2.jpg" mode="widthFix"></image>
+    <view class="txt">
+      <view> 炊烟小炒肉强烈推荐</view>
+      <view> 就是辣到头疼</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 3 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    橘子洲 毛泽东雕像
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cs3.jpg" mode="widthFix"></image>
+    <view class="txt">
+      <view> 普通党员的绝悟</view>
+      <view> 交大优秀党支书的绝悟</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 4 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  长沙滨江文化园
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cs4.jpg" mode="widthFix"></image>
+    <view class="txt">
+      <view> 湘江</view>
+      <view> 浏阳河</view>
+      <view> 永远排队的茶颜悦色</view>
+      <view> 长沙博物馆真好看</view>
+    </view>
+  </view>
+
+</view>
+
+
+
+<!-- 底部 -->
+<FtView/>

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dynamic/dynamic",
+    "pages/works/works",
+    "pages/shanghai/shanghai",
+    "pages/nanjing/nanjing",
+    "pages/chongqing/chongqing",
+    "pages/changsha/changsha",
+    "pages/playing/playing",
+    "pages/shopping/shopping",
+    "pages/relaxing/relaxing",
+    "pages/wandering/wandering",
+    "pages/acting/acting",
+    "pages/homing/homing"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fac1b8",
+    "navigationBarTitleText": "MeNio",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#b6b6b6",
+    "selectedColor": "#fac1b8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home_0.png",
+        "selectedIconPath": "images/home.png"
+      },
+      {
+        "pagePath": "pages/works/works",
+        "text": "花絮",
+        "iconPath": "images/huaxu_0.png",
+        "selectedIconPath": "images/huaxu.png"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "记录",
+        "iconPath": "images/record_0.png",
+        "selectedIconPath": "images/record.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

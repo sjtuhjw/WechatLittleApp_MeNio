@@ -1,0 +1,124 @@
+<!--pages/shanghai/shanghai.wxml-->
+<!-- 顶部导航-->
+<HdView/>
+
+
+<!-- nanjing -->
+<!-- 1 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  2019年12月8日~10日
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/nj1.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 第一次一起坐高铁</view>
+    <view> 高铁上对市考的答案 </view>
+    <view> 带nionio一起去南航</view>
+    <view> 忘带身份证没进南博 </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 2 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  吃吃逛逛
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/nj2.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 吃了好吃的牛肉锅贴</view>
+    <view> 一起去新街口约了饭 </view>
+
+    </view>
+  </view>
+
+</view>
+
+<!-- 3 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    鸡鸣寺的祈愿
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/nj3.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 一起祈福</view>
+    <view> 把心愿留在了鸡鸣寺</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 4 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  夫子庙的秋天
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/nj4.jpg" mode="widthFix"></image>
+    <view class="txt">
+      <view> 秋日的nionio好美呀~</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 5 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  她和猫
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/nj5.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 喵~</view>
+    <view> 嘘~别吵醒我的小宝贝</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 6 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    她和银杏雨
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/nj6.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 银杏雨下祈愿会实现吗~</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 7 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    我的老朋友，你的新朋友
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/nj7.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 呼呼：南！</view>
+    <view> nionio：碰！</view>
+    </view>
+  </view>
+
+</view>
+
+
+
+
+<!-- 底部 -->
+<FtView/>

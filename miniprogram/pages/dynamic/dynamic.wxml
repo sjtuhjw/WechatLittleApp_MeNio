@@ -1,0 +1,22 @@
+<!-- 顶部导航-->
+<HdView/>
+
+<!-- 幻灯片 -->
+<SlideView/>
+
+<!-- 记录 -->
+<view class="dynamic">
+  <view class="container">
+    <PubTitle myTitle="记录" myUrl="/pages/dynamic/dynamic"/>
+  </view>
+
+   <view bindtap="clickRow" 
+   data-id="{{item._id}}"
+   data-idx="{{index}}"
+   class="dyMain" wx:for="{{dataList}}" wx:key="index">
+    <BannerView myFig="{{item.pic}}" myTitle="{{item.title}}" myAddr="{{item.addr}}" myTime="{{item.time}}"/>
+   </view>
+</view>
+
+<!-- 底部 -->
+<FtView/>

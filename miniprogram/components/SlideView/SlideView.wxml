@@ -1,0 +1,8 @@
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#ffffff" autoplay circular interval="3000">
+    <swiper-item> <image mode="scaleToFill" src="/images/nj4.jpg"/></swiper-item>
+    <swiper-item> <image src="/images/sh3.jpg"/></swiper-item>
+    <swiper-item> <image src="/images/cq3.jpg"/></swiper-item>
+    <swiper-item> <image src="/images/cs3.jpg"/></swiper-item>
+  </swiper>
+</view>

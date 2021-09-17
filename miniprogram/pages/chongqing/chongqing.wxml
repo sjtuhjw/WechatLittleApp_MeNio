@@ -1,0 +1,121 @@
+<!--pages/shanghai/shanghai.wxml-->
+<!-- 顶部导航-->
+<HdView/>
+
+
+<!-- chongqing -->
+<!-- 1 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  2021年元旦 重庆跨年
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cq1.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 第一次一起坐飞机</view>
+    <view> 第一次火锅跨年 </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 2 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  山城清晨
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cq2.jpg" mode="widthFix"></image>
+    <view class="txt">
+      <view> 2021年的第一个早晨</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 3 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    长江索道
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cq3.jpg" mode="widthFix"></image>
+    <view class="txt">
+      <view> 第一次一起做索道</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 4 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  朝天门广场
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cq4.jpg" mode="widthFix"></image>
+    <view class="txt">
+      <view> 长江和嘉陵江的交汇点</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 5 -->
+<view class="psBox">
+  <view class="psBoxTit">
+  山城五天
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cq5.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 解放碑广场</view>
+    <view> 轨道交通2号线</view>
+    <view> 李子坝站懒得下楼</view>
+    <view> 磁器口古镇</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 6 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    重庆美食
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cq6.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> 蒜蓉鲍鱼yyds！</view>
+    <view> 楼下烤肠酥肉yyds！</view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 7 -->
+<view class="psBox">
+  <view class="psBoxTit">
+    2021也是爱你的一年！
+  </view>
+
+  <view class="psBoxCon">
+    <image class="pic" src="/images/cq7.jpg" mode="widthFix"></image>
+    <view class="txt">
+    <view> nionio：我可爱咩~</view>
+    <view> 呼呼：敲可爱！</view>
+    </view>
+  </view>
+
+</view>
+
+
+
+<!-- 底部 -->
+<FtView/>
